@@ -1,0 +1,35 @@
+{
+  "name": "angular2-bknd-sdk",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "tsc && karma start",
+    "prepublish": "tsc",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/renancunha/angular2-bknd-sdk"
+  },
+  "author": {
+    "name": "Renan Cunha",
+    "email": "renan.bara@hotmail.com"
+  },
+  "keywords": [
+    "angular",
+    "angular2"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/renancunha/angular2-bknd-sdk/issues"
+  },
+  "main": "angular2-bknd-sdk.js",
+  "typings": "./angular2-bknd-sdk.d.ts",
+  "dependencies": {
+    "angular2": "^2.0.0-beta.0",
+    "typescript": "^1.6.2"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
